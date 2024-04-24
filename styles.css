@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+#container {
+    text-align: center;
+    border: #0b32b3;
+}
+#factorialInput {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#calculateBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #061672;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
